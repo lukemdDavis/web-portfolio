@@ -1,0 +1,30 @@
+
+.top-nav{
+background-color: navy;
+align-content: center;
+display: flex;
+justify-content:space-evenly;
+padding: 20px;
+font-size: 30px;
+font-weight: bold;
+}
+   
+body{
+    background-color:lightgrey;
+}
+
+.top-nav a:unvisited{
+
+}
+
+
+.top-nav a:visited{
+    color: whitesmoke;
+}
+
+
+
+
+h1{
+    text-align:center;
+}
