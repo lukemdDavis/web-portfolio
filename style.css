@@ -89,21 +89,22 @@ h1 {
     font-weight: bold;
   }
 
-  .gaming-img {
+  .about-p {
+    font-size: 35px;
+  }
+
+  .about-me-2 {
+    font-size: 50px;
+  }
+  .about-me-2 .hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    font-size: 60px;
   }
-  .gaming-img img {
+  .about-me-2 .hobbies img {
     width: 65%;
-  }
-  .gaming-img .gaming-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: arial;
-    font-size: 12px;
   }
 }
 
