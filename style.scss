@@ -1,4 +1,6 @@
 
+
+
 .top-nav{
 background-color: navy;
 align-content: center;
@@ -63,13 +65,47 @@ h1{
 }
 .about-me-2{
     background-color:lightgrey;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     border: solid black 4px;
-    padding-bottom: 20%;
+    padding-bottom: 125px;
     font-family: arial;
     font-size: 25px;
     text-align: center;
     padding: 4px solid black;
     padding-left:75;  
 }
+.gaming-img{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+}
+@media only screen and (max-width: 1100px) {
+    .top-nav{
+        background-color: navy;
+        align-content: center;
+        display: flex;
+        justify-content:space-evenly;
+        padding: 5%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+        .gaming-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 10px;
+            
+            img{
+                width: 65%;
+            }
+            .gaming-text{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              font-family: arial;
+              font-size: 12px;
+
+            }
+        }
+  }
