@@ -8,16 +8,68 @@
   font-weight: bold;
 }
 
-body {
+.home-p {
   background-color: lightgrey;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid black 4px;
+  padding-bottom: 65%;
 }
 
-.top-nav a:visited {
+.logo-img {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.home-p {
+  font-family: arial;
+  font-size: 25px;
+  text-align: center;
+  padding: 4px solid black;
+  padding-left: 75;
+  padding-top: 100px;
+}
+
+.top-nav a:link {
+  color: green;
+}
+
+.top-nav a.active {
   color: whitesmoke;
+}
+
+.top-nav a:visited:hover {
+  color: red;
 }
 
 h1 {
   text-align: center;
+}
+
+.about-p {
+  background-color: lightgrey;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: solid black 4px;
+  padding-bottom: 20%;
+  font-family: arial;
+  font-size: 25px;
+  text-align: center;
+  padding: 4px solid black;
+  padding-left: 75;
+}
+
+.about-me-2 {
+  background-color: lightgrey;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: solid black 4px;
+  padding-bottom: 20%;
+  font-family: arial;
+  font-size: 25px;
+  text-align: center;
+  padding: 4px solid black;
+  padding-left: 75;
 }
 
 /*# sourceMappingURL=style.css.map */
