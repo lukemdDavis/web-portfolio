@@ -27,7 +27,7 @@ font-weight: bold;
     font-size: 25px;
     text-align: center;
     padding: 4px solid black;
-    padding-left:75;
+    padding-left:75px;
     padding-top: 100px;
 }
 
@@ -80,6 +80,39 @@ h1{
     justify-content: left;
     padding-left: 20px;
 }
+.submission{
+    border: solid black 2px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:lightgrey
+    
+}
+
+.submission{
+    display:flex;
+    justify-content: center;
+}
+
+#FBack{
+    padding-right: 40%;
+    padding-bottom: 65%;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1100px) {
     .top-nav{
         background-color: navy;
