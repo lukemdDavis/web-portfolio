@@ -67,10 +67,15 @@ h1 {
   border: solid black 4px;
   padding-bottom: 125px;
   font-family: arial;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   padding: 4px solid black;
   padding-left: 75;
+}
+
+.hobbies p {
+  font-size: 22px;
+  font-family: Arial;
 }
 
 .gym-pic {
@@ -146,6 +151,30 @@ h1 {
 
 #coming-soon {
   text-shadow: 2px 2px 5px;
+}
+
+.blog-text {
+  border: black 2px solid;
+  background-color: lightgrey;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.blog-text p {
+  font-size: 22px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.blog-text h2 {
+  display: flex;
+  font-family: Arial;
+  font-size: 32px;
+  justify-content: center;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1100px) {
