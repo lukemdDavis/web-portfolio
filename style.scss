@@ -127,7 +127,13 @@ h1{
     padding-top: 2%;
     flex-wrap:wrap;
 }
-
+.details {
+    display:flex;
+    justify-content: space-around;
+    img{
+        width:75px;
+    }
+}
 
 
 #pro{
