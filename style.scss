@@ -155,7 +155,7 @@ justify-content: center;
 border: 2px solid black;
 box-shadow: 3px 4px 3px;
 margin-left: 325px;
-margin-right: 325px;
+margin-right: 3px;
 }
 #coming-soon{
     text-shadow: 2px 2px 5px;
@@ -179,7 +179,7 @@ margin-right: 325px;
 .blog-text h2{
     display:flex;
     font-family: Arial;
-    font-size: 32px;
+    font-size: 120%;
     justify-content: center;
     text-decoration: underline;
 }
@@ -190,40 +190,63 @@ margin-right: 325px;
     align-items: center;
 
      img{
-    width: 500px;
+    width: 100%;
     
 }
+}
+.japan p{
+    font-size:120%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    font-family: arial;
 }
 .gaming2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     img{
-        width: 500px;
+        width: 100%;
+    
+
 }
+}
+.gaming2 p{
+    font-size:120%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    font-family: arial;
+}
+.gaming2 h2{
+    font-size: 190%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .fishing2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    img{
-        width: 500px;
+    
 }
+.fishing2 img{
+    width:100%
 }
 .gym2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    img{
-        width: 500px;
+    
 }
+.gym2 img{
+    width: 100%;
 }
 .food {
     display: flex;
     flex-direction: column;
     align-items: center;
     img{
-        width: 500px;
+        width: 100%;
 }
 }
 
