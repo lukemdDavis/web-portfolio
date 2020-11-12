@@ -78,9 +78,8 @@ h1 {
   font-family: Arial;
 }
 
-.gym-pic {
-  width: 300px;
-  height: 300px;
+.hobbies img {
+  width: 30%;
 }
 
 .gaming-img {
