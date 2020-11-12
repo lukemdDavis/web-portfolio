@@ -177,7 +177,106 @@ h1 {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1100px) {
+.japan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.japan img {
+  width: 500px;
+}
+
+.gaming2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gaming2 img {
+  width: 500px;
+}
+
+.fishing2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fishing2 img {
+  width: 500px;
+}
+
+.gym2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gym2 img {
+  width: 500px;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food img {
+  width: 500px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+  .logo-img {
+    width: 20%;
+  }
+
+  .home-p {
+    padding-right: 10%;
+  }
+
+  .hobbies img {
+    width: 50%;
+  }
+
+  .hobbies p {
+    font-size: 85%;
+  }
+
+  #tech-img {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    box-shadow: 3px 4px 3px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+  #tech-img img {
+    width: 70%;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px black;
+    background-color: lightgrey;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 2.5%;
+    padding-top: 2%;
+    flex-wrap: wrap;
+  }
+
+  .details h3 {
+    font-size: 15px;
+  }
+
+  .details {
+    display: flex;
+  }
+
+  img {
+    justify-content: space-between;
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
   .top-nav {
     background-color: navy;
     align-content: center;
@@ -188,22 +287,265 @@ h1 {
     font-weight: bold;
   }
 
-  .about-p {
-    font-size: 35px;
+  .about-p p {
+    font-size: 15px;
   }
 
   .about-me-2 {
-    font-size: 35px;
+    font-size: 20px;
   }
-  .about-me-2 .hobbies {
+  .about-me-2 .hobbies h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 10px;
   }
-  .about-me-2 .hobbies img {
+  .about-me-2 .hobbies h2 img {
     width: 65%;
+  }
+
+  .hobbies img {
+    width: 40%;
+  }
+
+  .gym-pic {
+    width: 40%;
+    height: 40%;
+  }
+
+  .gaming-img {
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+  }
+
+  .home-p {
+    background-color: lightgrey;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: solid black 4px;
+    padding-bottom: 65%;
+  }
+
+  .logo-img {
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 25%;
+  }
+
+  .home-p {
+    font-family: arial;
+    font-size: 25px;
+    text-align: center;
+    padding: 4px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+  .top-nav a:link {
+    color: green;
+  }
+
+  .top-nav a.active {
+    color: whitesmoke;
+  }
+
+  .top-nav a:visited:hover {
+    color: red;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .about-p {
+    background-color: lightgrey;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid black 4px;
+    padding-bottom: 5%;
+    font-family: arial;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: arial;
+  }
+
+  .about-me-2 {
+    background-color: lightgrey;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: solid black 4px;
+    padding-bottom: 125px;
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+    padding: 4px solid black;
+    padding-left: 75;
+  }
+
+  .hobbies p {
+    font-size: 22px;
+    font-family: Arial;
+  }
+
+  .gym-pic {
+    width: 300px;
+    height: 300px;
+  }
+
+  .gaming-img {
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+  }
+
+  .header {
+    text-decoration: underline;
+  }
+
+  .submission {
+    display: flex;
+    justify-content: center;
+  }
+
+  #FBack {
+    padding-right: 78px;
+    padding-bottom: 2.5%;
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px black;
+    background-color: lightgrey;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 2.5%;
+    padding-top: 2%;
+    flex-wrap: wrap;
+  }
+
+  .details h3 {
+    font-size: 15px;
+  }
+
+  .details {
+    display: flex;
+  }
+
+  img {
+    justify-content: space-between;
+    width: 40px;
+  }
+
+  .blog-text {
+    border: black 2px solid;
+    background-color: lightgrey;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .blog-text p {
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .blog-text h2 {
+    font-size: 85%;
+    justify-content: center;
+    text-decoration: underline;
+    display: flex;
+    font-family: Arial;
+  }
+
+  .japan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .japan img {
+    width: 80%;
+  }
+
+  .gaming2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gaming2 img {
+    width: 85%;
+  }
+
+  .gaming2 p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90%;
+  }
+
+  .fishing2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fishing2 img {
+    width: 85%;
+  }
+
+  .gym2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gym2 img {
+    width: 85%;
+  }
+
+  .food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .food img {
+    width: 85%;
+  }
+
+  #tech-img {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    box-shadow: 3px 4px 3px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+  #tech-img img {
+    width: 70%;
+  }
+
+  #coming-soon {
+    text-shadow: 2px 2px 5px;
+  }
+
+  #pro {
+    border: solid black 2px;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
   }
 }
 
