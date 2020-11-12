@@ -152,8 +152,8 @@ h1 {
   justify-content: center;
   border: 2px solid black;
   box-shadow: 3px 4px 3px;
-  margin-left: 454px;
-  margin-right: 454px;
+  margin-left: 325px;
+  margin-right: 325px;
 }
 
 #coming-soon {
@@ -164,10 +164,10 @@ h1 {
   border: black 2px solid;
   background-color: lightgrey;
   margin-top: 60px;
-  margin-left: 80px;
-  margin-right: 80px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .blog-text p {
